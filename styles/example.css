@@ -1,0 +1,44 @@
+#mastHead {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    z-index: -1;
+}
+
+.cent {
+    position: absolute;
+    color: white;
+    display: block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head {
+    top: 50%;
+}
+
+.welcome {
+    top: 65%;
+    font-size: 45px;
+}
+
+.informat {
+    top: 80%;
+}
+
+.card {
+    width: 17rem;
+    z-index: -1;
+}
+
+.btn-circle.btn-xxl {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    font-size: 70px;
+    color: white;
+}
